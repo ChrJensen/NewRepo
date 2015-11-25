@@ -11,7 +11,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("My name is {0}","Christian");
+            var name = "Christian";
+            Console.WriteLine("My name is {0}",name);
         }
     }
 }
